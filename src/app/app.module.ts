@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardComponent } from './components/card/card.component';
+import { HomeComponent } from './pages/home/home.component';
+import { HeadComponent } from './components/head/head.component';
+import { FootComponent } from './components/foot/foot.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent,
+    HomeComponent,
+    HeadComponent,
+    FootComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,

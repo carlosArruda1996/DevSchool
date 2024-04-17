@@ -1,0 +1,23 @@
+.menu{
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    background-color: lavender;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+.menu-components{
+    color: #000;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
