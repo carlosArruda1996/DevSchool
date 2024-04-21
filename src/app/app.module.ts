@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeadComponent } from './components/head/head.component';
 import { FootComponent } from './components/foot/foot.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import{ApresentacaoComponent} from './components/head/apresentacao/apresentacao.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     HomeComponent,
     HeadComponent,
     FootComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    ApresentacaoComponent
   ],
   imports: [
     BrowserModule,

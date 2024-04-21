@@ -21,3 +21,12 @@
     font-size: 18px;
 
 }
+
+.menu-components > a{
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-decoration: solid;
+    text-shadow: 10;
+}

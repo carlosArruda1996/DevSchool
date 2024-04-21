@@ -1,0 +1,22 @@
+.corpo{
+    color: white;
+    display: flex;
+    position: relative;
+    background-color: grey;
+    z-index: 99;
+}
+.foto{
+    border: solid 1px white;
+}
+.foto > img{
+    margin: 5px;
+    margin-left: 68px;
+    padding: 5px;
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.descricao > h1{
+
+}
