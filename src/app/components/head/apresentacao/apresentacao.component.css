@@ -1,22 +1,40 @@
 .corpo{
-    color: white;
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    height: 330px;
     display: flex;
     position: relative;
     background-color: grey;
-    z-index: 99;
+    z-index: 1;
+    border-radius: 30px;
+    opacity: 70%;
 }
-.foto{
-    border: solid 1px white;
-}
-.foto > img{
+
+.imagem{
     margin: 5px;
-    margin-left: 68px;
+    margin-left: 73px;
     padding: 5px;
     width: 300px;
     height: 320px;
     border-radius: 50%;
 }
-
-.descricao > h1{
-
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+.apresentacao > .descricao{
+    margin-top: 230px;
+}
+.descricao{
+    height: 70px;
+    border: solid 1px red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
 }
