@@ -1,7 +1,7 @@
 .menu{
     margin: auto;
     width: 90%;
-    height: 30px;
+    height: 50px;
     background-color: lavender;
     border-radius: 15px;
     opacity: 0.7;
@@ -11,6 +11,7 @@
     color: #000;
     list-style: none;
     margin: auto;
+
     padding: auto;
     gap: 60px;
     display: flex;
@@ -29,4 +30,5 @@
     font-size: 18px;
     text-decoration: solid;
     text-shadow: 10;
+    margin-top: 10px;
 }
