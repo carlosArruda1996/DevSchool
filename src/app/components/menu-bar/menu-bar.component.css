@@ -10,8 +10,7 @@
 .menu-components{
     color: #000;
     list-style: none;
-    margin: auto;
-
+    margin: 5px;
     padding: auto;
     gap: 60px;
     display: flex;
@@ -31,4 +30,5 @@
     text-decoration: solid;
     text-shadow: 10;
     margin-top: 10px;
+    font-weight: bold;
 }
