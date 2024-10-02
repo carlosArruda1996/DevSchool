@@ -9,6 +9,9 @@ import { HeadComponent } from './components/head/head.component';
 import { FootComponent } from './components/foot/foot.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import{ApresentacaoComponent} from './components/head/apresentacao/apresentacao.component';
+import { DocumentacoesComponent } from './pages/documentacoes/documentacoes.component';
+
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import{ApresentacaoComponent} from './components/head/apresentacao/apresentacao.
     HeadComponent,
     FootComponent,
     MenuBarComponent,
-    ApresentacaoComponent
+    ApresentacaoComponent,
+    DocumentacoesComponent
   ],
   imports: [
     BrowserModule,
