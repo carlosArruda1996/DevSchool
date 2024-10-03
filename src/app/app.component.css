@@ -1,0 +1,7 @@
+.corpo{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px white;
+    align-items: center;
+    box-sizing: border-box;
+}
