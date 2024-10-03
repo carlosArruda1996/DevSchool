@@ -10,6 +10,12 @@ import { FootComponent } from './components/foot/foot.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import{ApresentacaoComponent} from './components/head/apresentacao/apresentacao.component';
 import { DocumentacoesComponent } from './pages/documentacoes/documentacoes.component';
+import { FaleConoscoComponent } from './pages/fale-conosco/fale-conosco.component';
+import { LeftMenuComponent } from './components/left-menu/left-menu.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ArtigosComponent } from './pages/artigos/artigos.component';
+import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
+import { RoadMapsComponent } from './pages/road-maps/road-maps.component';
 
 
 
@@ -22,7 +28,13 @@ import { DocumentacoesComponent } from './pages/documentacoes/documentacoes.comp
     FootComponent,
     MenuBarComponent,
     ApresentacaoComponent,
-    DocumentacoesComponent
+    DocumentacoesComponent,
+    FaleConoscoComponent,
+    LeftMenuComponent,
+    FooterComponent,
+    ArtigosComponent,
+    BibliotecaComponent,
+    RoadMapsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.corpo{
+    margin-top: 1%;
+    margin-left: 70px;
+    position: relative;
+    background-color: azure;
+    width: 250px;
+    height: 620px;
+    border-radius: 1.5rem;
+    opacity: 0.5;
+    border-radius: 30px;
+    background-color: aliceblue;
+    z-index: 1;
+}
