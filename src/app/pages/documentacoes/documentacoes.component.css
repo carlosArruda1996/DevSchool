@@ -1,5 +1,11 @@
 .corpo{
-    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.5;
+    width: 59.5rem;
+    height: 900px;
+    background-color: aliceblue;
+    border-radius: 30px;
 }
 h1{
     color: black;
