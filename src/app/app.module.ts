@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ArtigosComponent } from './pages/artigos/artigos.component';
 import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
 import { RoadMapsComponent } from './pages/road-maps/road-maps.component';
+import { PostarArtigoComponent } from './pages/artigos/postar-artigo/postar-artigo.component';
 
 
 
@@ -31,7 +32,8 @@ import { RoadMapsComponent } from './pages/road-maps/road-maps.component';
     FooterComponent,
     ArtigosComponent,
     BibliotecaComponent,
-    RoadMapsComponent
+    RoadMapsComponent,
+    PostarArtigoComponent
   ],
   imports: [
     BrowserModule,
