@@ -1,22 +1,42 @@
+/* Estilo para o contêiner geral */
 .corpo {
-    margin: 10px;
-    padding: 10px;
-    opacity: 0.5;
-    width: 59.5rem;
-    height: 900px;
-    background-color: aliceblue;
-    border-radius: 30px;
-    position: relative;
-    display: flex;  
-    justify-content: center;
-    align-items: top; 
+    position: relative; /* Para que os elementos dentro de .corpo sejam posicionados em relação a ele */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    width: 100%;
 }
 
-.componentes{
+/* Estilo para a div .componentes que contém os outros elementos */
+.componentes {
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    z-index: 999;
     display: flex;
     flex-direction: column;
-    z-index: 3;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.titulo{
-    color: black;
+
+
+.login {
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outros a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
 }
