@@ -8,7 +8,7 @@ import { HeadComponent } from './components/head/head.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import{ApresentacaoComponent} from './components/head/apresentacao/apresentacao.component';
 import { DocumentacoesComponent } from './pages/documentations/documentacoes.component';
-import { FaleConoscoComponent } from './pages/talk-with-us/fale-conosco.component';
+import { FaleConoscoComponent } from './pages/talk-to-us/fale-conosco.component';
 import { LeftMenuComponent } from './components/left-menu/left-menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ArtigosComponent } from './pages/artigos/artigos.component';
@@ -18,6 +18,7 @@ import { PostarArtigoComponent } from './pages/artigos/postar-artigo/postar-arti
 import{LoginPageComponent} from './components/head/login-page/login-page.component';
 import { TelaCadastroComponent } from './components/head/login-page/new-user/tela-cadastro.component';
 import { EsqueciASenhaComponent } from './components/head/login-page/new-password/esqueci-a-senha.component';
+import { SharedComponentComponent } from './shared-component/shared-component.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { EsqueciASenhaComponent } from './components/head/login-page/new-passwor
     PostarArtigoComponent,
     LoginPageComponent,
     TelaCadastroComponent,
-    EsqueciASenhaComponent
+    EsqueciASenhaComponent,
+    SharedComponentComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,4 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-artigos',
@@ -11,9 +9,5 @@ import { Observable } from 'rxjs';
 
 
 export class ArtigosComponent {
-
-  private apiUrl = "http://localhost:8080/api/articles";
-
-  constructor(private http: HttpClient){}
 
 }

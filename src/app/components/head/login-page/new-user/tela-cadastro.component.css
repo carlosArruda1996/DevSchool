@@ -1,0 +1,11 @@
+.corpo{
+    z-index: 1;
+}
+.componentes{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.titulo{
+    color: black;
+}

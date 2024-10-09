@@ -1,0 +1,16 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.componentes{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+.titulo{
+    color: black;
+}
