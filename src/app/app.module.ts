@@ -11,10 +11,10 @@ import { DocumentacoesComponent } from './pages/documentations/documentacoes.com
 import { FaleConoscoComponent } from './pages/talk-to-us/fale-conosco.component';
 import { LeftMenuComponent } from './components/left-menu/left-menu.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ArtigosComponent } from './pages/artigos/artigos.component';
+import { ArtigosComponent } from './pages/articles/artigos.component';
 import { BibliotecaComponent } from './pages/library/biblioteca.component';
 import { RoadMapsComponent } from './pages/road-maps/road-maps.component';
-import { PostarArtigoComponent } from './pages/artigos/postar-artigo/postar-artigo.component';
+import { PostarArtigoComponent } from './pages/articles/postar-artigo/postar-artigo.component';
 import{LoginPageComponent} from './components/head/login-page/login-page.component';
 import { TelaCadastroComponent } from './components/head/login-page/new-user/tela-cadastro.component';
 import { EsqueciASenhaComponent } from './components/head/login-page/new-password/esqueci-a-senha.component';

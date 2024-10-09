@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {DocumentacoesComponent} from './pages/documentations/documentacoes.component';
 import { CardComponent } from './components/card/card.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ArtigosComponent } from './pages/artigos/artigos.component';
+import { ArtigosComponent } from './pages/articles/artigos.component';
 import { BibliotecaComponent } from './pages/library/biblioteca.component';
 import { RoadMapsComponent } from './pages/road-maps/road-maps.component';
 import { FaleConoscoComponent } from './pages/talk-to-us/fale-conosco.component';
