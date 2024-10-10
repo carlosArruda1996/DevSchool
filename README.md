@@ -6,7 +6,7 @@
 
 ## Deploy da Aplicação com Netlify: :dash:
 
-> https://certificates-for-everyone-womakerscode.netlify.app/
+> https://devschoolbr.netlify.app/
 
 <h2>Funcionalidades</h2>
 <ul>
