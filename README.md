@@ -1,6 +1,6 @@
-<h1>myBlog</h1>
+<h1>DevSchool</h1>
 <br>
-Este projeto é um blog pessoal onde usuários autenticados podem criar, editar e gerenciar artigos. O projeto consiste em uma aplicação front-end desenvolvida em Angular integrada a um back-end em Java usando Spring Boot, com autenticação JWT e persistência de dados utilizando JPA e MySQL.
+Este projeto é uma espécie de comunidade online onde usuários autenticados podem criar, editar e gerenciar artigos. O projeto consiste em uma aplicação front-end desenvolvida em Angular integrada a um back-end em Java usando Spring Boot, com autenticação JWT e persistência de dados utilizando JPA e MySQL.
 
 <h2>Funcionalidades</h2>
 <ul>
