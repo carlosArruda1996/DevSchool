@@ -1,6 +1,7 @@
-<h1>DevSchool</h1>
+<h1 align="center">DevSchool</h1>
 <br>
-Este projeto é uma espécie de comunidade online onde usuários autenticados podem criar, editar e gerenciar artigos. O projeto consiste em uma aplicação front-end desenvolvida em Angular integrada a um back-end em Java usando Spring Boot, com autenticação JWT e persistência de dados utilizando JPA e MySQL.
+<p align="justify">Este projeto é uma espécie de comunidade online onde usuários autenticados podem criar, editar e gerenciar artigos. O projeto consiste em uma aplicação front-end desenvolvida em Angular integrada a um back-end em Java usando Spring Boot, com autenticação JWT e persistência de dados utilizando JPA e MySQL.</p>
+![Badge](https://img.shields.io/static/v1?label=angular&message=framework&color=red&style=for-the-badge&logo=ANGULAR)
 
 <h2>Funcionalidades</h2>
 <ul>
